@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-pink.min.css">
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+</head>
+<body>
+<div class="container content-container">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--3-col"></div>
+    <div class="mdl-cell mdl-cell--6-col main-content">
+      <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+        <div class="mdl-tabs__tab-bar">
+          <a href="#about-panel" class="mdl-tabs__tab is-active">About</a>
+          <a href="#merch-panel" class="mdl-tabs__tab">Merch</a>
+          <a href="#chat-panel" class="mdl-tabs__tab">Chat</a>
+        </div>
+
+        <div class="mdl-tabs__panel is-active" id="about-panel">
+          <p>Some textgoes here.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="merch-panel">
+          <blockquote class="embedly-card" data-card-key="de0b8d2932a24f7c86fb371d227be9fb"><h4><a href="http://www.amazon.com/gp/product/B01660BYCK">The OFFICIAL Brofox T-Shirt</a></h4><p></p></blockquote>
+          <blockquote class="embedly-card" data-card-key="de0b8d2932a24f7c86fb371d227be9fb"><h4><a href="http://www.amazon.com/gp/product/B0197HWP2W">The OFFICIAL Brofox T-Shirt [Stacked]</a></h4><p></p></blockquote>
+          <blockquote class="embedly-card" data-card-key="de0b8d2932a24f7c86fb371d227be9fb"><h4><a href="http://www.amazon.com/gp/product/B0197MVLEK">The OFFICIAL Brofox T-Shirt [Overlay]</a></h4><p></p></blockquote>
+        </div>
+        <div class="mdl-tabs__panel" id="chat-panel">
+          <iframe src="https://discordapp.com/widget?id=105434108867428352&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="mdl-cell mdl-cell--2-col"></div>
+  </div>
+</div>
+
+</body>
+</html>
