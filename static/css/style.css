@@ -1,5 +1,4 @@
 body::before {
-    background-image: url('/static/img/bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     content: '';

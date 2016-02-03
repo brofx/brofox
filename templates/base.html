@@ -6,6 +6,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+  <style>
+    body::before {
+        background-image: url('{{ url_for("static", filename="img/%s" % bg) }}');
+    }
+  </style>
 </head>
 <body>
 <div class="container content-container">
